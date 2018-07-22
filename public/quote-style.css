@@ -1,0 +1,42 @@
+blockquote {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 900px;
+}
+p,
+cite {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+p {
+    font-family: Georgia;
+    color: #fff ;
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: 100;
+    padding-bottom: 2rem;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+span {
+    will-change: opacity;
+    opacity: 0;
+    word-break: keep-all;
+}
+span.animate {
+    opacity: 1;
+    -webkit-filter: blur(0) !important;
+}
+cite {
+    font-family: verdana;
+    font-size: 1.2em;
+    color: #aaa;
+    opacity: 0;
+    font-style: normal;
+    font-weight: 500;
+}
+cite.animate {
+    opacity: 1;
+}
